@@ -1,0 +1,71 @@
+body {
+	font-family: 'Cardo', serif;
+	background-color: white;
+
+}
+#content {
+
+}
+#logo {
+	position: fixed;
+	left: 75px;
+	top: 55px;
+}
+#nav {
+	position: fixed;
+	right: 50px;
+	left: 280px;
+	top: 50px;
+	height: 120px;
+	background-color: #BC3816;
+}
+#navcontent {
+	position: fixed;
+	left: 50px;
+	top: 200px;
+	font-size: 1.5em;
+	border-bottom: 2px;
+}
+.navcontent a {
+	font-family: ;
+	color: white;
+}
+.navcontent a:hover {
+	color: gray;
+}
+#body {
+	position: fixed;
+	left: 50px;
+	right: 50px;
+	top: 200px;
+	bottom: 150px;
+	background-color: #FF7519;
+}
+#bodycontent {
+
+}
+.footer {
+
+}
+#footer {
+	position: fixed;
+	bottom: 75px;
+	height: 50px;
+	left: 50px;
+	right: 50px;
+	background-color: #BC3816;
+}
+#footernav {
+	font-size: 1em;
+	color: #000066;
+	text-decoration: none;
+}
+#footernav a {
+	text-decoration: underline;
+}
+#footernav a:hover {
+	text-decoration: none;
+}
+a {
+	text-decoration: none;
+}
