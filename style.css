@@ -1,48 +1,76 @@
 body {
-	font-family: 'Cardo', serif;
+	font-family: 'Fanwood Text', serif;
 	background-color: white;
-
+	color: white;
 }
+
 #content {
 
 }
 #logo {
 	position: fixed;
-	left: 75px;
-	top: 55px;
+	left: 60px;
+	top: 50px;
+	padding-left: 5px;
+	padding-right: 5px;
+	-webkit-box-shadow: 0px 0px 15px #666;
+	box-shadow: 0px 0px 15px #666;
+	border-bottom: 5px;
+	border-color: gray;
 }
 #nav {
 	position: fixed;
 	right: 50px;
 	left: 280px;
+	max-width: 550px;
 	top: 50px;
 	height: 120px;
 	background-color: #BC3816;
+	-webkit-box-shadow: 0px 0px 15px #666;
+	box-shadow: 0px 0px 15px #666;
 }
-#navcontent {
+#navcontent	{
 	position: fixed;
-	left: 50px;
-	top: 200px;
-	font-size: 1.5em;
-	border-bottom: 2px;
+	right: 20px;
+	top: 100px;
+	height: 30px;
+	max-width: 500px;
+	border-bottom: solid #191970 1em;
+	z-index: 1;
+	text-align: center;
+	word-spacing: 2em;
+
 }
-.navcontent a {
-	font-family: ;
+#navcontent a {
 	color: white;
+	font-size: 1.5em;
+	text-shadow: 2px 2px 0px #666;
+
 }
-.navcontent a:hover {
-	color: gray;
+#navcontent a:hover {
+	color: orange;
 }
 #body {
 	position: fixed;
-	left: 50px;
-	right: 50px;
+	max-width: 500px;
+/*	left: 50px;
+	right: 50px;*/
+	margin: auto;
 	top: 200px;
 	bottom: 150px;
 	background-color: #FF7519;
+	-webkit-box-shadow: 0px 0px 15px #666;
+	box-shadow: 0px 0px 15px #666;
 }
 #bodycontent {
-
+	background-color: #4682B4;
+	padding: 15px;
+	border: 4px 4px 4px 4px;
+	border-color: #FF7519;
+}
+#bodycontent h1 {
+	background-color: #4682B4;
+	text-shadow: 2px 2px 0px #666;
 }
 .footer {
 
@@ -54,6 +82,8 @@ body {
 	left: 50px;
 	right: 50px;
 	background-color: #BC3816;
+	-webkit-box-shadow: 0px 0px 15px #666;
+	box-shadow: 0px 0px 15px #666;
 }
 #footernav {
 	font-size: 1em;
