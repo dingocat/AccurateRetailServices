@@ -1,6 +1,14 @@
 body {
 	color: gray; 
-	background-color: ;
+	font-family: 'Josefin Sans', sans-serif;
+}
+h1	{
+	font-family: 'Julius Sans One', sans-serif;
+}
+h2	{
+	font-family: 'Julius Sans One', sans-serif;
+}
+h3	{
 	font-family: 'Julius Sans One', sans-serif;
 }
 #topcorner {
@@ -10,7 +18,7 @@ body {
 	border-top: 75px solid #cdc5bf;
 	border-right: 75px solid transparent;
 	border-bottom: 75px solid transparent;
-	position: fixed;
+	position: absolute;
 	top: 0;
 	left: 0;
 }
@@ -53,56 +61,54 @@ a {
 	text-decoration: none;
 	color: #b2b2b2;
 }
+a:hover {
+	font-size: 1.1em;
+	color: #5c9cbf;
+}
 .link {
 	font-size: .8em;
 	color: #b2b2b2;
 	text-decoration: none;
 }
-#link1 a:hover {
+#link1:hover {
 	color:	#8fc701;
-	font-size: 1.1em;
+	font-size: 1em;
 }
-#link2 a:hover {
+#link2:hover {
 	color: #5c9cbf;
-	font-size: 1.1em;
+	font-size: 1em;
 }
-#link3 a:hover {
+#link3:hover {
 	color: #e9b312;
-	font-size: 1.1em;
+	font-size: 1em;
 }
 
-#centeredText{
+.centeredText{
 	position: absolute;
-	top: 250px;
+	top: 190px;
 	width: 80%;
 	text-align: justify;
 	line-height: 1.2em;
 	text-shadow: 2px 2px 5px #d9d9d9;
+	font-size: 1.3em;
 }
-.text {
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 1.5em;
-	line-height: 1.2em;
+#text1 {
+	position: absolute;
+	top: 220px;
+	width: 80%;
+	text-align: justify;
+	line-height: 1.3em;
 	text-shadow: 2px 2px 5px #d9d9d9;
-}
-/*#text {
-	transition:all 1s ease;
+	font-size: 1.3em;
 }
 #text2 {
-	transition:all 1s ease;
+	padding-bottom: 50px;
+	line-height: 1.2em;
 }
 #text3 {
-	transition:all 1s ease;
+	font-size: 1.3em;
+	line-height: .7em;
 }
-#text:target {
-
-}
-#text2:target {
-
-}
-#text3:target {
-
-}*/
 #bottomcorner {
 	position: fixed;
 	right: 0;
