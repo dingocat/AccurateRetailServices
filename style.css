@@ -1,5 +1,6 @@
 body {
 	color: gray; 
+<<<<<<< HEAD
 	font-family: 'Josefin Sans', sans-serif;
 }
 h1	{
@@ -120,3 +121,119 @@ a:hover {
 	border-left: 75px solid transparent;
 	border-top: 75px solid transparent;
 }
+=======
+	background-color: ;
+	font-family: 'Julius Sans One', sans-serif;
+}
+#topcorner {
+	width: 0;
+	height: 0;
+	border-left: 75px solid #cdc5bf;
+	border-top: 75px solid #cdc5bf;
+	border-right: 75px solid transparent;
+	border-bottom: 75px solid transparent;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+#container {
+	position: absolute;
+	width: 600px;
+	left: 200px;
+	right: 200px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	display: inline;
+	float: left;
+}
+#logo {
+	position: absolute;
+	width: 169px;
+	right: 0;
+	left: 0;
+	padding-right: 100px;
+	margin: auto;
+	top: 50px;
+}
+#sideContent {
+	float: left;
+	display: inline;
+	position: relative;
+	left: 50px;
+	width: 100px;
+	top: 250px;
+	text-shadow: 2px 2px 5px #d9d9d9;
+}
+#name {
+	position: absolute;
+	top: 120px;
+	text-shadow: 2px 2px 5px #d9d9d9;
+}
+a {
+	text-decoration: none;
+	color: #b2b2b2;
+}
+.link {
+	font-size: .8em;
+	color: #b2b2b2;
+	text-decoration: none;
+}
+#link1 a:hover {
+	color:	#8fc701;
+	font-size: 1.1em;
+}
+#link2 a:hover {
+	color: #5c9cbf;
+	font-size: 1.1em;
+}
+#link3 a:hover {
+	color: #e9b312;
+	font-size: 1.1em;
+}
+
+#centeredText{
+	position: absolute;
+	top: 250px;
+	width: 80%;
+	text-align: justify;
+	line-height: 1.2em;
+	text-shadow: 2px 2px 5px #d9d9d9;
+}
+.text {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.5em;
+	line-height: 1.2em;
+	text-shadow: 2px 2px 5px #d9d9d9;
+}
+/*#text {
+	transition:all 1s ease;
+}
+#text2 {
+	transition:all 1s ease;
+}
+#text3 {
+	transition:all 1s ease;
+}
+#text:target {
+
+}
+#text2:target {
+
+}
+#text3:target {
+
+}*/
+#bottomcorner {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	width: 0;
+	height: 0;
+	border-right: 75px solid #cdc5bf;
+	border-bottom: 75px solid #cdc5bf;
+	border-left: 75px solid transparent;
+	border-top: 75px solid transparent;
+}
+>>>>>>> master
