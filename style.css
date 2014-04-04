@@ -77,12 +77,12 @@ a:hover {
 	top: 30px;
 	width: 80%;
 	margin: auto;
-	text-align: justify;
-	line-height: 1.3em;
+	line-height: 1.4em;
 	font-size: 1.3em;
 	font-family: 'Josefin Sans', sans-serif;
 }
 #text1 {
+	text-align: justify;
 	padding-top: 10px;
 	font-size: 1.4em;
 }
