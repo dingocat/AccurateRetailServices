@@ -1,7 +1,6 @@
 body {
-	color: gray; 
-	background-image: url(img/tilingbg.png);
-	background-repeat: repeat;
+	color: darkslategrey;
+	background-color: #514154;
 	font-family: 'Josefin Sans', sans-serif;
 }
 h1	{
@@ -9,9 +8,11 @@ h1	{
 }
 h2	{
 	font-family: 'Julius Sans One', sans-serif;
+	text-align: center;
 }
 h3	{
 	font-family: 'Julius Sans One', sans-serif;
+	text-align: center;
 }
 
 #container {
@@ -22,81 +23,73 @@ h3	{
 	top: 0;
 	bottom: 0;
 	margin: auto;
-	display: inline;
-	float: left;
-	background-color: white;
-}
+	background-color: mediumseagreen;
+	border-right: double 5px darkorange;
+	border-left: double 5px darkorange;
+	overflow: auto;
+/*	text-shadow: 2px 2px 5px #d9d9d9;
+*/}
 #logo {
-	position: absolute;
+	position: relative;
 	width: 169px;
-	right: 0;
-	left: 0;
+	height: 72px;
 	margin: auto;
-	top: 50px;
+	top: 28px;
+/*	border: double 5px white;*/
 }
 #sideContent {
-	float: left;
-	display: inline;
 	position: relative;
 	left: 50px;
 	width: 100px;
 	top: 250px;
-	text-shadow: 2px 2px 5px #d9d9d9;
 }
 #name {
-	position: absolute;
-	top: 120px;
-	text-shadow: 2px 2px 5px #d9d9d9;
-	padding-left: 40px;
+	position: relative;
+	top: 35px;
+	text-align: center;
+	border-bottom: solid darkslategrey;
+	margin: 0 35px 15px 35px;
 }
 a {
 	text-decoration: none;
-	color: #b2b2b2;
+	color: darkslategrey;
 }
 a:hover {
 	font-size: 1.1em;
-	color: #5c9cbf;
+	color: #e9b312;
 }
 .link {
-	font-size: .8em;
-	color: #b2b2b2;
-	text-decoration: none;
+	color: blanchedalmond;
+	border-bottom: 2px solid gray;
 }
 #link1:hover {
 	color:	#8fc701;
-	font-size: 1em;
 }
 #link2:hover {
 	color: #5c9cbf;
-	font-size: 1em;
 }
 #link3:hover {
 	color: #e9b312;
-	font-size: 1em;
 }
 
 .centeredText{
-	position: absolute;
-	top: 190px;
+	position: relative;
+	top: 30px;
 	width: 80%;
-	padding-left: 55px;
+	margin: auto;
 	text-align: justify;
-	line-height: 1.2em;
-	text-shadow: 2px 2px 5px #d9d9d9;
+	line-height: 1.3em;
 	font-size: 1.3em;
 	font-family: 'Josefin Sans', sans-serif;
 }
 #text1 {
-	position: absolute;
-	top: 220px;
-	width: 80%;
+	padding-top: 10px;
+	font-size: 1.4em;
 }
 #text2 {
 	padding-bottom: 50px;
-	line-height: 1.2em;
 }
 #text3 {
-	font-size: 1.3em;
 	line-height: .7em;
 }
 
