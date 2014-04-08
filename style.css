@@ -1,5 +1,5 @@
 body {
-	color: darkslategrey;
+	color: white;
 	background-color: #514154;
 	font-family: 'Josefin Sans', sans-serif;
 }
@@ -17,7 +17,7 @@ h3	{
 
 #container {
 	position: absolute;
-	width: 600px;
+	max-width: 800px;
 	left: 200px;
 	right: 200px;
 	top: 0;
@@ -26,16 +26,13 @@ h3	{
 	background-color: mediumseagreen;
 	border-right: double 5px darkorange;
 	border-left: double 5px darkorange;
-	overflow: auto;
-/*	text-shadow: 2px 2px 5px #d9d9d9;
-*/}
+}
 #logo {
 	position: relative;
 	width: 169px;
 	height: 72px;
 	margin: auto;
 	top: 28px;
-/*	border: double 5px white;*/
 }
 #sideContent {
 	position: relative;
@@ -47,7 +44,7 @@ h3	{
 	position: relative;
 	top: 35px;
 	text-align: center;
-	border-bottom: solid darkslategrey;
+	border-bottom: solid gray;
 	margin: 0 35px 15px 35px;
 }
 a {
@@ -91,6 +88,17 @@ a:hover {
 }
 #text3 {
 	line-height: .7em;
+}
+#footer {
+	position: absolute;
+	text-align: center;
+	right: 10px;
+	left: 10px;
+	bottom: 5px;
+	font-size: .8em;
+}
+#footer p {
+	margin: 1em auto;
 }
 
 
