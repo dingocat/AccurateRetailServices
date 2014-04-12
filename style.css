@@ -1,4 +1,5 @@
 body {
+    position: absolute;
 	color: white;
 	background-color: #514154;
 	font-family: 'Josefin Sans', sans-serif;
@@ -14,15 +15,19 @@ h3	{
 	font-family: 'Julius Sans One', sans-serif;
 	text-align: center;
 }
-
+#sideContent {
+	position: absolute;
+	left: 50px;
+	width: 100px;
+	top: 250px;
+}
 #container {
 	position: absolute;
-	max-width: 800px;
+	width: 800px;
 	left: 200px;
 	right: 200px;
-	top: 0;
-	bottom: 0;
-	margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 	background-color: mediumseagreen;
 	border-right: double 5px darkorange;
 	border-left: double 5px darkorange;
@@ -34,12 +39,6 @@ h3	{
 	margin: auto;
 	top: 28px;
 }
-#sideContent {
-	position: relative;
-	left: 50px;
-	width: 100px;
-	top: 250px;
-}
 #name {
 	position: relative;
 	top: 35px;
@@ -49,14 +48,13 @@ h3	{
 }
 a {
 	text-decoration: none;
-	color: darkslategrey;
+	color: blanchedalmond;
 }
 a:hover {
-	font-size: 1.1em;
 	color: #e9b312;
 }
 .link {
-	color: blanchedalmond;
+	color: white;
 	border-bottom: 2px solid gray;
 }
 #link1:hover {
@@ -89,15 +87,14 @@ a:hover {
 #text3 {
 	line-height: .7em;
 }
-#footer {
-	position: absolute;
+#contactBottom {
 	text-align: center;
 	right: 10px;
 	left: 10px;
 	bottom: 5px;
 	font-size: .8em;
 }
-#footer p {
+#contactBottom p {
 	margin: 1em auto;
 }
 
