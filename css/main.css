@@ -149,22 +149,24 @@ h3  {
 }
 a {
     text-decoration: none;
-    color: blanchedalmond;
+    color: white;
 }
 a:hover {
     color: #e9b312;
 }
 .link {
-    color: blanchedalmond;
     border-bottom: 2px solid gray;
 }
-#link1:hover {
+.link a {
+    color: blanchedalmond;
+}
+#link1 a:hover {
     color:  #8fc701;
 }
-#link2:hover {
+#link2 a:hover {
     color: #5c9cbf;
 }
-#link3:hover {
+#link3 a:hover {
     color: #e9b312;
 }
 
@@ -188,25 +190,23 @@ a:hover {
 #text3 {
     line-height: .7em;
 }
-#footer {
-    position: relative;
+.footer {
     text-align: center;
     padding: 10px;
     font-size: .8em;
 }
-#footer p {
+
+#footerServices {
+    position: relative;
+}
+#footerIndex {
+    position: absolute;
+    bottom: 0px;
+    left: 55px;
+}
+.footer p {
     margin: 1em auto;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
